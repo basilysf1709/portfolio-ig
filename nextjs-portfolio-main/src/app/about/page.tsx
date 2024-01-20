@@ -16,7 +16,7 @@ const About: NextPage = () => {
                 <div className="about-text padd-15">
                   <h2>
                     I am Basil Yusuf, a{" "}
-                    <span>Computer Science and Economics Specialist</span>
+                    <span>Computer Science Student at Guelph</span>
                   </h2>
                   <p>
                     Hi! My name is Basil Yusuf. I am a graduate in Computer
@@ -40,7 +40,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>5197310464</span>
+                        Phone : <span>XXXXXXXXXXX</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -80,7 +80,7 @@ const About: NextPage = () => {
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
-                          <i className="fa fa-calendar" /> Sep 2020 - Apr 2024
+                          <i className="fa fa-calendar" /> Sep 2020 - Apr 2024 | University of Guelph
                         </h6>
                         <h4 className="timeline-title">
                           Bachelor of Computing
@@ -101,7 +101,8 @@ const About: NextPage = () => {
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
-                          <i className="fa fa-calendar" /> Oct 2023 - Present | Deloitte
+                          <i className="fa fa-calendar" /> Oct 2023 - Present |
+                          Deloitte
                         </h6>
                         <h4 className="timeline-title">
                           Software Engineer (DevOps / Infrastructure)
@@ -116,7 +117,8 @@ const About: NextPage = () => {
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
-                          <i className="fa fa-calendar" /> May 2023 - Aug 2023 | Amazon
+                          <i className="fa fa-calendar" /> May 2023 - Aug 2023 |
+                          Amazon
                         </h6>
                         <h4 className="timeline-title">
                           Software Engineer Intern
@@ -131,7 +133,8 @@ const About: NextPage = () => {
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
-                          <i className="fa fa-calendar" /> Jan 2023 - Apr 2023 | TD Bank
+                          <i className="fa fa-calendar" /> Jan 2023 - Apr 2023 |
+                          TD Bank
                         </h6>
                         <h4 className="timeline-title">
                           Software Engineer Intern
@@ -143,40 +146,63 @@ const About: NextPage = () => {
                         </p>
                       </div>
                       {/* University of Guelph - Undergraduate Researcher */}
-<div className="timeline-item">
-  <div className="circle-dot" />
-  <h6 className="timeline-date">
-    <i className="fa fa-calendar" /> Jan 2023 - Apr 2023 | University of Guelph
-  </h6>
-  <h4 className="timeline-title">Undergraduate Researcher</h4>
-  <p className="timeline-text">
-    Developed game matchmaking server architecture, integrating microservices and RabbitMQ for scalability at the University of Guelph. Implemented MongoDB for player data storage and deployed automated scaling and monitoring systems.
-  </p>
-</div>
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h6 className="timeline-date">
+                          <i className="fa fa-calendar" /> Jan 2023 - Apr 2023 |
+                          University of Guelph
+                        </h6>
+                        <h4 className="timeline-title">
+                          Undergraduate Researcher
+                        </h4>
+                        <p className="timeline-text">
+                          Developed game matchmaking server architecture,
+                          integrating microservices and RabbitMQ for scalability
+                          at the University of Guelph. Implemented MongoDB for
+                          player data storage and deployed automated scaling and
+                          monitoring systems.
+                        </p>
+                      </div>
 
-{/* Interac - Software Engineer Intern */}
-<div className="timeline-item">
-  <div className="circle-dot" />
-  <h6 className="timeline-date">
-    <i className="fa fa-calendar" /> Sep 2022 - Dec 2022 | Interac
-  </h6>
-  <h4 className="timeline-title">Software Engineer Intern (Platform and Cloud Architecture)</h4>
-  <p className="timeline-text">
-    Developed authentication infrastructure for Interac e-Transfers using Azure technologies. Initiated and coordinated the building of Interac’s Digital Platform architecture and infrastructure.
-  </p>
-</div>
+                      {/* Interac - Software Engineer Intern */}
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h6 className="timeline-date">
+                          <i className="fa fa-calendar" /> Sep 2022 - Dec 2022 |
+                          Interac
+                        </h6>
+                        <h4 className="timeline-title">
+                          Software Engineer Intern (Platform and Cloud
+                          Architecture)
+                        </h4>
+                        <p className="timeline-text">
+                          Developed authentication infrastructure for Interac
+                          e-Transfers using Azure technologies. Initiated and
+                          coordinated the building of Interac’s Digital Platform
+                          architecture and infrastructure.
+                        </p>
+                      </div>
 
-{/* University of Guelph - Software Developer Intern */}
-<div className="timeline-item">
-  <div className="circle-dot" />
-  <h6 className="timeline-date">
-    <i className="fa fa-calendar" /> May 2022 - Aug 2022  | University of Guelph
-  </h6>
-  <h4 className="timeline-title">Software Developer Intern</h4>
-  <p className="timeline-text">
-    Programmed the landing page of ResearchSpace web application at the University of Guelph. Migrated JavaScript code to TypeScript React Components, reducing production and build time by 20%.
-  </p>
-</div>
+                      {/* University of Guelph - Software Developer Intern */}
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                        <h6 className="timeline-date">
+                          <i className="fa fa-calendar" /> May 2022 - Aug 2022 |
+                          University of Guelph
+                        </h6>
+                        <h4 className="timeline-title">
+                          Software Developer Intern
+                        </h4>
+                        <p className="timeline-text">
+                          Programmed the landing page of ResearchSpace web
+                          application at the University of Guelph. Migrated
+                          JavaScript code to TypeScript React Components,
+                          reducing production and build time by 20%.
+                        </p>
+                      </div>
+                      <div className="timeline-item">
+                        <div className="circle-dot" />
+                      </div>
                     </div>
                   </div>
                 </div>
