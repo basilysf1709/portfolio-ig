@@ -24,7 +24,7 @@ const About: NextPage = () => {
                     passionate about developing innovative software solutions.
                     With experience in various internships and projects, I have
                     honed my skills in languages like Java, Go, C/C++, and in
-                    tools such as React, Node, AWS, and Azure. I'm dedicated to
+                    tools such as React, Node, AWS, and Azure. I&apos;m dedicated to
                     leveraging my knowledge to contribute to meaningful
                     projects.
                   </p>
@@ -110,7 +110,7 @@ const About: NextPage = () => {
                           Software Engineer (DevOps / Infrastructure)
                         </h4>
                         <p className="timeline-text">
-                          At Deloitte in Toronto, orchestrated the application's
+                          At Deloitte in Toronto, orchestrated the application&apos;s
                           migration to AWS and implemented Continuous Deployment
                           in Azure DevOps.
                         </p>
