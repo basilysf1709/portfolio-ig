@@ -1,1 +1,1 @@
-Forked some open source repo for this, forgot which one
+Forked open source repo: https://github.com/alsiam/urFolio, made some design changes
