@@ -35,12 +35,11 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>basilyusuf1709@gmail.com</span>
+                        basilyusuf1709@gmail.com
                       </p>
                     </div>
                     <div className="info-item padd-15">
-                      <p>
-                        Phone : <span>XXXXXXXXXXX</span>
+                      <p><span>+1 5197310464</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -77,7 +76,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="timeline shadow-dark">
                       {/* University of Guelph */}
-                      <div className="timeline-item">
+                      <div style={{ paddingBottom: '0px' }} className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
                           <i className="fa fa-calendar" /> Sep 2020 - Apr 2024 | University of Guelph
@@ -90,6 +89,9 @@ const About: NextPage = () => {
                           Computer Science and Economics. Currently at a
                           cumulative GPA of 4.0
                         </p>
+                      </div>
+                      <div style={{ paddingBottom: '0px' }} className="timeline-item">
+                        <div className="circle-dot" />
                       </div>
                     </div>
                   </div>
@@ -184,7 +186,7 @@ const About: NextPage = () => {
                       </div>
 
                       {/* University of Guelph - Software Developer Intern */}
-                      <div className="timeline-item">
+                      <div style={{ paddingBottom: '0px' }} className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
                           <i className="fa fa-calendar" /> May 2022 - Aug 2022 |
@@ -200,7 +202,7 @@ const About: NextPage = () => {
                           reducing production and build time by 20%.
                         </p>
                       </div>
-                      <div className="timeline-item">
+                      <div style={{ paddingBottom: '0px' }} className="timeline-item">
                         <div className="circle-dot" />
                       </div>
                     </div>

@@ -7,13 +7,12 @@ import "../styles/blue.css";
 import "../styles/theme.css";
 import Sidebar from "@/components/sidebar/sidebar";
 import Providers from "./providers";
-import ThemeSwitch from "@/components/panel/ThemeSwitch";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "urFolio - Portfolio web",
-  description: "urFolio - a Open Source portfolio web application",
+  title: "Basil Yusuf",
+  description: "A passionate software tinkerer",
 };
 
 export default function RootLayout({
@@ -25,7 +24,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <ThemeSwitch />
           <Sidebar />
           {children}
         </Providers>

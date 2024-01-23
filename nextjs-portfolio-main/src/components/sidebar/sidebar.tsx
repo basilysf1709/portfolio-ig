@@ -50,11 +50,6 @@ const Sidebar = () => {
             </Link>
           </li>
           <li onClick={handleClose}>
-            <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
-              <i className="fa fa-envelope" /> Blog
-            </Link>
-          </li>
-          <li onClick={handleClose}>
             <Link
               href="/contact"
               className={`${pathUrl == "/contact" && "active"}`}
