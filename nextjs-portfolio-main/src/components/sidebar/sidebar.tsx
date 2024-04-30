@@ -38,7 +38,7 @@ const Sidebar = () => {
               href="/about"
               className={`${pathUrl == "/about" && "active"}`}
             >
-              <i className="fa fa-user" /> About
+              <i className="fa fa-user" /> Experiences
             </Link>
           </li>
           <li onClick={handleClose}>
@@ -46,7 +46,7 @@ const Sidebar = () => {
               href="/portfolio"
               className={`${pathUrl == "/portfolio" && "active"}`}
             >
-              <i className="fa fa-briefcase" /> Portfolio
+              <i className="fa fa-briefcase" /> Projects
             </Link>
           </li>
           <li onClick={handleClose}>

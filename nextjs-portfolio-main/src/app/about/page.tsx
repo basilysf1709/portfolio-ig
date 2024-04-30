@@ -39,7 +39,7 @@ const About: NextPage = () => {
                       </p>
                     </div>
                     <div className="info-item padd-15">
-                      <p><span>+1 5197310464</span>
+                      <p><span>XXXXXXXXXX</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -103,7 +103,7 @@ const About: NextPage = () => {
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h6 className="timeline-date">
-                          <i className="fa fa-calendar" /> Oct 2023 - Present |
+                          <i className="fa fa-calendar" /> Oct 2023 - Apr 24 |
                           Deloitte
                         </h6>
                         <h4 className="timeline-title">

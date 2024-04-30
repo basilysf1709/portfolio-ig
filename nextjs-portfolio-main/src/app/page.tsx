@@ -6,11 +6,11 @@ export default async function Home() {
       <section className="home section" id="home">
         <div className="container">
           <div className="intro">
-            <img
+            {/* <img
               src="/imgs/profile.png"
               alt="Basil Yusuf Profile"
               className="shadow-dark"
-            />
+            /> */}
             <h1>Basil Yusuf</h1>
             <p>Software Engineer</p>
             <div className="social-links">
