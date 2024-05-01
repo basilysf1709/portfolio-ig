@@ -3,113 +3,23 @@ import Link from "next/link";
 
 const Portfolio: NextPage = () => {
   return (
-    <div>
-      <section className="portfolio section" id="portfolio">
-        <div className="container">
-          <div className="row">
-            <div className="section-title padd-15">
-              <h2>Projects</h2>
-            </div>
-          </div>
-          <div className="row">
-            {/* Portfolio Item */}
-            <Link href="https://devpost.com/software/beachify-e1k98y" className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/1.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Beachify</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <Link href="https://blindspot.website/" className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/2.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Blindspot</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <Link href="https://devpost.com/software/fiable" className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/3.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Fiable</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <Link
-              href="https://devpost.com/software/withu"
-              className="portfolio-item padd-15"
-              data-category="graphics-design"
-            >
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/4.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>WithU</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <Link href="https://firstyear-checklist.vercel.app/" className="portfolio-item padd-15" data-category="wordpress">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/5.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>First year Checklist</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <Link href="https://github.com/basilysf1709" className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/6.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Many more on Github</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            {/* Portfolio Item End*/}
-          </div>
+      <section>
+        <div className="block w-3/4 rounded-lg bg-white p-6 shadow-secondary-1 dark:bg-surface-dark dark:text-white text-surface">
+          <h5 className="mb-2 text-xl font-medium leading-tight">Card title</h5>
+          <p className="mb-4 text-base">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <button
+            type="button"
+            className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+            data-twe-ripple-init
+            data-twe-ripple-color="light"
+          >
+            Button
+          </button>
         </div>
       </section>
-    </div>
   );
 };
 
